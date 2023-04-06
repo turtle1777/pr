@@ -6,9 +6,10 @@ int minRotatedArray(int array[],int n){
         int high=n;
         // int mid=(low+high)/2;
         
-        if(array[0]<array[n])
-            return array[0];
-        
+       // if(array[0]<array[n])
+       //     return array[0];
+        if(arra[0]<array[n])
+        return 1;
         while(low<high){
             int mid=(low+high)/2;
             
